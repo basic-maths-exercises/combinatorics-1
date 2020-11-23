@@ -10,7 +10,7 @@ We will start with the equations for the number of permutations.  You will remem
 
  Your task is to complete the function on the right called `allseq`.  The first argument that is passed to this function `inseq` is a list containing a set of `n-1` distinguishable symbols.  The code should return `final_seq` which is a list of the `n` lists that can be constructed by inserting the symbol in the variable called `a` in the `n` different positions where it can be inserted in `inseq`.  
 
-If you run this code now you will see that I have got you started by creating the list of `n` lists called `final_seq`.  I have done this by creating a list called `newseq`, which has a length of `n`, within a loop that places the new symbol (a) into the `n` possible locations in the new sequences.  Furthermore, I have placed these new sequences into the list of lists called `final_seq` that the function returns by using the command:
+If you run this code now you will see that I have got you started by creating the list of `n` lists called `final_seq`.  I have done this by creating a list called `newseq`, which has a length of `n`, within a loop that places the new symbol (`a`) into the `n` possible locations in the new sequences.  Furthermore, I have placed these new sequences into the list of lists called `final_seq` that the function returns by using the command:
 
 ````
 final_seq.append( newseq ) 
