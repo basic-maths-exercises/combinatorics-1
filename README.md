@@ -16,7 +16,7 @@ If you run this code now you will see that I have got you started by creating th
 final_seq.append( newseq ) 
 ````
 
-which appends the variable newseq onto the end of the list called `final_seq`.  Your task is thus to simply insert the `n-1` symbols from `inseq` into the `n-1` locations that I have not used in `newseq`.  You can test your code by seeing if the output for inserting 4 into [1,2,3] is as described above.
+which appends the variable newseq onto the end of the list called `final_seq`.  Your task is thus to simply insert the `n-1` symbols from `inseq` into the `n-1` locations that I have not used in `newseq`.  You can test your code by seeing if the output for inserting 4 into `[1,2,3]` is as described above.
 
 _In this exercise, I am using python lists rather than NumPy arrays because the output is better.  To create an empty Python list you do:_
 
