@@ -30,4 +30,4 @@ _You can then create the content of the list by using append as described above.
 a = n*[0]
 ````
 
-I have used NumPy arrays rather than Python lists in previous exercises because these are better suited for doing mathematical operations. 
+_I have used NumPy arrays rather than Python lists in previous exercises because these are better suited for doing mathematical operations._
